@@ -1,6 +1,10 @@
 "use client";
 
-import { HomeIcon, DocumentDuplicateIcon } from "@heroicons/react/24/outline";
+import {
+  HomeIcon,
+  DocumentDuplicateIcon,
+  MagnifyingGlassIcon,
+} from "@heroicons/react/24/outline";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import clsx from "clsx";
@@ -11,7 +15,7 @@ const links = [
   {
     name: "Search",
     href: "/search",
-    icon: DocumentDuplicateIcon,
+    icon: MagnifyingGlassIcon,
   },
   { name: "All Resources", href: "/resources", icon: DocumentDuplicateIcon },
 ];
